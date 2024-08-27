@@ -1,0 +1,11 @@
+<--
+    Context:
+        I have Created the Package Employees which contains 3 class Employees and Departments, holds the information about the
+        employees details and their department deatils
+ -->
+ <--
+    Agenda:
+        ->I Practiced the shallow copy and deep copy.
+        ->Used Function interface apply as Lambda expression to achieve this.
+        ->And used Predicate interface isEqual to check equality.
+ -->
