@@ -1,0 +1,25 @@
+I have implemented two classes: Customer.java, which manages all customer details, and an inner class Loan within Customer.java to handle loan details specific to each customer. Additionally, 
+the CustomerService class includes the functionality for processing loan applications
+
+1:Customer.java: Manages customer details.
+2:Inner class Loan: Handles loan details specific to the customer.
+3:CustomerService: Processes loan applications.
+
+Program Excecution:
+
+Input:
+Please Enter your customer_id
+001
+Hello,Kamalesh Welcome to KFR Bank  how may I assist you
+newLoan
+Eligible loan amount is=60000.0
+Please enter amount you looking for :
+45000
+Chose the duration of years
+10
+Please enter the what kind of Loan you seeking for:[StudyLoan, Two-Wheeler Loan, Four-WheelerLoan, PersonalLoan, HousingLoan]
+two-wheelerLoan
+
+Output:
+Hi,Kamalesh  Your Loan two-wheelerLoanis Approved
+[Loan{id=11, principleAmount=45000, duration=10, simpleInterest=54000.0, rateOfInterest=12.0, loanType='two-wheelerLoan'}]
